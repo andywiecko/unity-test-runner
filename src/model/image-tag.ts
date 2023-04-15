@@ -122,7 +122,7 @@ class ImageTag {
       return customImage;
     }
 
-    const dockerRepoVersion = 0;
+    const dockerRepoVersion = 1;
     return `${image}:${tag}-${dockerRepoVersion}`;
   }
 }
